@@ -1,0 +1,10 @@
+- title: Soma Simples
+  description: Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas e atribua à variável SOMA. A seguir escrever o valor desta variável.
+  run: python ex01.py
+  tests:
+    - in: [30,10]
+      out: Soma = 40
+    - in: [-30,10]
+      out: Soma = -20
+    - in: [0,0]
+      out: Soma = 0
