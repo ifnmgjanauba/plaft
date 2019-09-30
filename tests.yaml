@@ -3,19 +3,19 @@
   program: ex01.py
   tests:
     - input: [30,10]
-      output: Soma = 40
+      output: soma = 40
     - input: [-30,10]
-      output: Soma = -20
+      output: soma = -20
     - input: [0,0]
-      ooutput: Soma = 0
+      output: soma = 0
       
 - title: Média
   description: Leia 3 valores, no caso, variáveis A, B e C, que são as três notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 2, a nota B tem peso 3 e a nota C tem peso 5. Considere que cada nota pode ir de 0 até 10.
   program: ex02.py
   tests:
     - input: [5,6,7]
-      output: Media = 6.0
+      output: media = 6.0
     - input: [5,10,10]
-      output: Media = 8.333333333333334
+      output: media = 8.333333333333334
     - input: [10,10,40]
-      output: Media = 20.0  
+      output: media = 20.0

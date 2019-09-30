@@ -10,7 +10,7 @@ def readme():
 
 setup(
     name='plaft',
-    version='0.0.1',
+    version='1.0.0',
     description='Simple tool for automating the correction of programming language exercises',
     long_description=readme(),
     long_description_content_type= 'text/markdown',
