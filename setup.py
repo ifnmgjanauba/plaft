@@ -27,9 +27,9 @@ setup(
     license='GPLv3',
     install_requires=['click','pyyaml','pexpect'],
     packages=["plaft"],
-    include_package_data=True
+    include_package_data=True,
     python_requires=">= 3.6",
     entry_points={
         "console_scripts": ["plaft=plaft.__main__:main"]
-    },
+    }
 )
