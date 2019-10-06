@@ -15,9 +15,8 @@ from re import match
 
 def main(config_file,assignments):
     # Load assignments directories.
-    assignment_dirs = [os.path.join(assignments, d)
-                for d in os.listdir(assignments)]
-    assignment_dirs = filter(os.path.isdir, assignment_dirs)
+    assignment_dirs = [os.path.join(assignments, d) for d in os.listdir(assignments)]
+    assignment_dirs = [dirs for dirs in assignment_dirs if os.path.isdir(dirs)]
 
     # Load assigments tests from configure file 
     assignment_tests = yaml.load(config_file.read(), Loader=yaml.FullLoader)
